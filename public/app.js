@@ -36,7 +36,7 @@ $(function () {
         } );*/
 
     Dropzone.options.printForm = {
-        maxFilesize: 2, // MB
+        maxFilesize: 4, // MB
         acceptedFiles: "application/pdf"
     };
 });
