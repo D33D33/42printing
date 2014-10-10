@@ -1,0 +1,31 @@
+html, body, .container, .row, .col-md-8 {
+    height: 100%;
+}
+
+.dz-preview {
+    display: none;
+}
+
+.text, .dz-message {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.text {
+    height: 120px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.jumbotron {
+    margin-top: 60px;
+    position: relative;
+    border: 4px dashed lightgrey;
+    background: transparent;
+    height: 65%;
+}
